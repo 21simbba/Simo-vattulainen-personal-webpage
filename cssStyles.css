@@ -1,14 +1,16 @@
 /* CSS styles */
-.kuva1 {
-  position: fixed;
-  margin: 1cm;
-
-
+.kuva1 video{
+  width: 80%;
+  height: auto;
+  position: relative;
+  float: left;
+  margin-left: 10%;
+  
 }
 
 body {
   background-size: fill;
-  background-color: rgb(168, 168, 168);
+  background-color: rgb(45, 45, 45);
   margin: 0px;
   font-family: Verdana, sans-serif;
   font-size: 15px;
@@ -19,7 +21,7 @@ body {
 nav {
   width: 100%;
   overflow: hidden;
-  height: 70px;
+  height: 65px;
   background-color: rgb(114, 113, 113);
   font-style: italic;
   font-family: Verdana, sans-serif;
@@ -48,27 +50,23 @@ ul li a {
 
 .About {
   display: flex;
-  margin-top: 25px;
+  margin-top: 3px;
   margin-left: 25px;
-  border-radius: 5px;
-  background-color: hsla(175, 100%, 50%, 0.82);
-  outline: 5px rgb(0, 0, 0);
-  box-shadow: 5px 5px 5px 5px rgba(107, 2, 2, 0.021);
-  border: 2px solid rgba(255, 255, 255, 0.506);
   max-width: fit-content;
   padding-bottom: 6px;
   min-height: 35px;
-  text-shadow: 3px 0px 4px red;
+  text-shadow: 3px 0px 4px rgb(7, 7, 7);
   font-size: 30px;
   color: seashell;
+  font-style: italic;
 
 }
 
 .text {
   size: 20px;
-  text-align: left;
-  list-style: none;
-  padding: 10px;
+  text-align:start;
+  list-style:square;
+
 }
 
 .contacts {
@@ -95,20 +93,28 @@ ul li a {
 
 }
 
-.column {
-  padding: 20px;
-  width: 31.2%;
+.gallery {
+  margin-top: 5px;
   float: left;
+  max-width: 33.3%;
+  width: 33%;
+  display: flex;
+  justify-content: space-between;
 }
-
-.row {
-  content: "";
-  clear: both;
-  display: table;
+div.gallery img:hover {
+  transform: scale(1.2);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
-
+.gallery img{
+  display: flex;
+  justify-content: space-between;
+  
+}
+.row{
+  max-width: 100%;
+}
 img {
-  max-width: 1500px;
+  max-width: 85%;
   height: auto;
 }
 
@@ -116,12 +122,12 @@ figcaption {
   font-family: 'Courier New', Courier, monospace;
   color: seashell;
   background-color: darkcyan;
-  max-width: 5000px;
+  max-width: fit-content;
   margin-top: 0px;
 }
 
 .container {
-  position: relative;
+  position:sticky;
   text-align: center;
   color: white;
 }
@@ -187,4 +193,40 @@ figcaption {
 .xxlarge {
   font-size: 36px;
   font-weight: lighter;
+}
+.aboutheader{
+  padding: 8px 16px;
+  color: seashell;
+  font-style: italic;
+  
+}
+.text a{
+  font-weight: bold;
+}
+input[type=text], select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+input[type=submit] {
+  width: 100%;
+  background-color: #4CAF50;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+.formi label{
+  color: seashell;
 }
