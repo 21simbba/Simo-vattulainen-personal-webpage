@@ -74,7 +74,7 @@ ul li a {
   margin-top: 25px;
   margin-left: 25px;
   border-radius: 15px;
-  background-color: hsla(192, 98%, 47%, 0.82);
+  background-color: hsla(0, 0%, 14%, 0.82);
   outline: 5px rgb(0, 0, 0);
   box-shadow: 5px 5px 5px 5px rgba(107, 2, 2, 0.021);
   border: 2px solid rgba(255, 255, 255, 0.506);
@@ -84,6 +84,14 @@ ul li a {
   text-shadow: 3px 0px 4px rgb(8, 1, 1);
   font-size: 40px;
   color: seashell;
+  
+}
+
+.user_name p{
+  text-align: center;
+  color: seashell;
+  font-size: 25px;
+  letter-spacing: 2px;
 }
 
 .text2 {
@@ -91,6 +99,11 @@ ul li a {
   padding: 10px;
   text-align: left;
 
+}
+
+.text2 li a{
+  
+  color:white;
 }
 
 .gallery {
@@ -102,7 +115,7 @@ ul li a {
   justify-content: space-between;
 }
 div.gallery img:hover {
-  transform: scale(1.2);
+  transform: scale(1.15);
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
 .gallery img{
