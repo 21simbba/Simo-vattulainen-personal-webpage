@@ -1,11 +1,11 @@
 /* CSS styles */
-.kuva1 video{
+.kuva1 video {
   width: 80%;
   height: auto;
   position: relative;
   float: left;
   margin-left: 10%;
-  
+
 }
 
 body {
@@ -15,6 +15,10 @@ body {
   font-family: Verdana, sans-serif;
   font-size: 15px;
   line-height: 1.5;
+}
+
+.clock {
+  float: right;
 }
 
 
@@ -64,8 +68,8 @@ ul li a {
 
 .text {
   size: 20px;
-  text-align:start;
-  list-style:square;
+  text-align: start;
+  list-style: square;
 
 }
 
@@ -84,10 +88,10 @@ ul li a {
   text-shadow: 3px 0px 4px rgb(8, 1, 1);
   font-size: 40px;
   color: seashell;
-  
+
 }
 
-.user_name p{
+.user_name p {
   text-align: center;
   color: seashell;
   font-size: 25px;
@@ -101,9 +105,9 @@ ul li a {
 
 }
 
-.text2 li a{
-  
-  color:white;
+.text2 li a {
+
+  color: white;
 }
 
 .gallery {
@@ -114,18 +118,22 @@ ul li a {
   display: flex;
   justify-content: space-between;
 }
+
 div.gallery img:hover {
   transform: scale(1.15);
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
-.gallery img{
+
+.gallery img {
   display: flex;
   justify-content: space-between;
-  
+
 }
-.row{
+
+.row {
   max-width: 100%;
 }
+
 img {
   max-width: 85%;
   height: auto;
@@ -140,7 +148,7 @@ figcaption {
 }
 
 .container {
-  position:sticky;
+  position: sticky;
   text-align: center;
   color: white;
 }
@@ -207,14 +215,14 @@ figcaption {
   font-size: 36px;
   font-weight: lighter;
 }
-.aboutheader{
+
+.aboutheader {
   padding: 8px 16px;
   color: seashell;
   font-style: italic;
-  
+
 }
-.text a{
+
+.text a {
   font-weight: bold;
 }
-
-
