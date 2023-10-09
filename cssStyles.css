@@ -25,7 +25,7 @@ body {
 nav {
   width: 100%;
   overflow: hidden;
-  height: 65px;
+  max-height: fit-content;
   background-color: rgb(114, 113, 113);
   font-style: italic;
   font-family: Verdana, sans-serif;
@@ -49,7 +49,6 @@ ul li a {
   text-decoration: none;
   color: white;
   padding: 6px 16px 8px;
-
 }
 
 .About {
@@ -60,7 +59,7 @@ ul li a {
   padding-bottom: 6px;
   min-height: 35px;
   text-shadow: 3px 0px 4px rgb(7, 7, 7);
-  font-size: 30px;
+  font-size: x-large;
   color: seashell;
   font-style: italic;
 
@@ -70,14 +69,11 @@ ul li a {
   size: 20px;
   text-align: start;
   list-style: square;
-
+  max-width: fit-content;
 }
 
 .contacts {
   display: flex;
-  margin-top: 25px;
-  margin-left: 25px;
-  border-radius: 15px;
   background-color: hsla(0, 0%, 14%, 0.82);
   outline: 5px rgb(0, 0, 0);
   box-shadow: 5px 5px 5px 5px rgba(107, 2, 2, 0.021);
@@ -86,15 +82,14 @@ ul li a {
   padding-bottom: 6px;
   min-height: 35px;
   text-shadow: 3px 0px 4px rgb(8, 1, 1);
-  font-size: 40px;
   color: seashell;
-
+ font-size:x-large;
 }
 
 .user_name p {
   text-align: center;
   color: seashell;
-  font-size: 25px;
+  font-size: large;
   letter-spacing: 2px;
 }
 
@@ -102,7 +97,7 @@ ul li a {
   list-style: none;
   padding: 10px;
   text-align: left;
-
+  max-width: fit-content;
 }
 
 .text2 li a {
