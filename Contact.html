@@ -6,11 +6,18 @@
 <title>Contact</title>
 <script type="text/javascript">
         window.onload = function () {
-                var username = prompt("What is your name?");
-                var usernameElement = document.getElementById("name");
+            var username = prompt("What is your name?");
+            var usernameElement = document.getElementById("name");
+    
+            if (username === null) {
+                alert("You didn't provide a name.");
+            } else if (usernameElement === null) {
+                alert("Element with id 'name' not found.");
+            } else {
                 usernameElement.innerText = username;
+            }
         }
-</script>
+    </script>
 
 <body>
 
