@@ -12,3 +12,5 @@ Contact sivulle tein javascriptillä alertin, joka sivun auetessa kysyy käyttä
 Loin alertille myös errorin, jos käyttäjä sulkee promptin. 
 
 Yritän näillä kaikilla ominaisuuksilla saada ainakin 4.
+
+https://github.com/21simbba/Simo-vattulainen-personal-webpage.git
